@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.androidunleashed.alarmapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+11-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:5:5-78
+11-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:5:22-76
+12
+13    <application
+13-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:7:5-22:19
+14        android:debuggable="true"
+15        android:icon="@drawable/ic_launcher"
+15-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:8:9-45
+16        android:label="@string/app_name"
+16-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:9:9-41
+17        android:testOnly="true"
+18        android:theme="@style/AppTheme" >
+18-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:10:9-40
+19        <receiver android:name="com.androidunleashed.alarmapp.MyBroadcastReceiver" >
+19-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:11:9-12:20
+19-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:11:19-53
+20        </receiver>
+21
+22        <activity
+22-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:13:9-20:20
+23            android:name="com.androidunleashed.alarmapp.AlarmAppActivity"
+23-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:14:13-45
+24            android:label="@string/title_activity_alarm_app" >
+24-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:15:13-61
+25            <intent-filter>
+25-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:16:13-19:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:17:17-69
+26-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:18:17-77
+28-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:18:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:21:9-87
+32            android:name="com.androidunleashed.alarmapp.ReminderActivity"
+32-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:21:19-51
+33            android:label="@string/app_name" />
+33-->/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/AndroidManifest.xml:21:52-84
+34    </application>
+35
+36</manifest>

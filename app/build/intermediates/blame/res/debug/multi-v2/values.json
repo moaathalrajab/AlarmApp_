@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/MoaathAlrajab/Downloads/AlarmApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "19",
+                        "endColumns": "58",
+                        "endOffsets": "73"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "275",
+                        "endColumns": "57",
+                        "endOffsets": "328"
+                    }
+                },
+                {
+                    "source": "/Users/MoaathAlrajab/Downloads/AlarmApp/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "19,66,120,172",
+                        "endColumns": "45,52,50,69",
+                        "endOffsets": "60,114,166,237"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,101,154,205",
+                        "endColumns": "45,52,50,69",
+                        "endOffsets": "96,149,200,270"
+                    }
+                }
+            ]
+        }
+    ]
+}
